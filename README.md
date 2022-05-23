@@ -28,3 +28,7 @@
 
 #### 步驟二
 
+```shell
+sudo chmod a-w /var/ftp/
+```
+
