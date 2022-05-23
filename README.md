@@ -2,6 +2,9 @@
 伺服器建設
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
     - [設定記憶體大小](#設定記憶體大小)
+    - [確認目前內核版](#確認目前內核版)
+    - [安裝GUESS ADDITIONS CD 映像](#安裝GUESS ADDITIONS CD 映像)
+       - [步驟一](#步驟一)
 
 
 ## KERNEL-REBUILD 前置作業
@@ -15,7 +18,7 @@
 
      ![uname-mrs](image/uname-mrs.png) 
 
-### 安裝GUESS ADDITIONS CD 映像(以下簡稱GAC)
+### 安裝GUESS ADDITIONS CD 映像
 由於基礎視窗過小,所以如果是有需要進行Mesunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
 
 #### 步驟一
