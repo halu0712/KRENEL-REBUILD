@@ -12,7 +12,7 @@
         - [dwarves](#dwarves)
 * [開始安裝](#開始安裝)
     - [下載kernel](#下載kernel)
-    - [複製 .config文件](#複製 .config文件)
+    - [複製-.config文件](#複製-.config文件)
     - [修改.config文件](#修改.config文件)
     - [安裝](#安裝)
     - [安裝(可選)](#安裝(可選))
