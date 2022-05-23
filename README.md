@@ -47,6 +47,19 @@ sudo apt-get install dkms
 ```
 上述動作結束後重開機,並在上方欄位"檢視"中找到選項"自動調整客體顯示大小",即可調節視窗大小
 
-#### 安裝額外DLC
+### 安裝gcc等編譯器
+安裝gcc等編譯器始能使用make相關的指令
+
+```shell
+sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-dev libelf-dev
+```
+其中gcc 是 c 編譯器 flebx 是詞法分析器，bison 是解析器。
+
+### 安裝額外DLC
 
 這部分是在REBUILD中會遭遇的BUG,為防止過度使用記憶體,所以建議先裝好,若是使用18.04或16.04可跳過
+- zstd
+會遇到的問題如下
+```shell
+@@@
+```
