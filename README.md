@@ -16,9 +16,15 @@
 
 ### 安裝GUESS ADDITIONS CD 映像(以下簡稱GAC)
 - 由於基礎視窗過小,所以如果是有需要進行Mesunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
+- 
 #### 步驟一
 - 在介面上方找到"裝置",點擊他並找到"插入GAC映像"
     
 ![install-GAC](image/install-GAC.png)
 
--系統會自行跳出終端並安裝,結束後按ENTER即跳出視窗
+- 點選後會跑出以下圖示,點"執行"後系統會自行跳出終端並安裝,結束後按ENTER即跳出視窗
+
+![GAC-confirm](image/GAC-confirm.png)
+
+#### 步驟二
+
