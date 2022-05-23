@@ -27,13 +27,16 @@
 ![GAC-confirm](image/GAC-confirm.png)
 
 #### 步驟二
+-結束之後打開終端,並執行以下指令
 
 ```shell
 sudo apt-get apdate
 ```
+
 ```shell
 sudo apt-get apgrade
 ```
+
 ```shell
 sudo apt-get install dkms
 ```
