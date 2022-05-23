@@ -115,3 +115,20 @@ make localmodconfig
 
 第三種就是直接跑到電腦內部直接複製.config文件,需要注意的是20.04是雙核心,所以要確定哪個才是需要複製的
 ![AA](image/AA.png)
+
+### 修改.config文件
+20.04中config_system_[trusted_keys,sig_key,revocation_key]這三樣的憑證開啟於debain資料夾中,但實際上debain資料夾是在make途中才創建,所以在跑make的時候一定會出錯
+所以需要修改新的位子使其能夠正常運作
+```properties
+CONFIG_MODULE_SIG_KEY="debian/canonical-certs.pem"
+CONFIG_SYSTEM_TRUSTED_KEYS="debian/canonical-certs.pem"
+CONFIG_SYSTEM_REVOCATION_KEYS="debian/canonical-revoked-certs.pem"
+```
+經測試,revocation為非必要憑證,所以僅需要將它那一行改成" "即可
+至於trusted_key,sig_key則可使用同一個憑證,所以修改結果為
+
+```properties
+CONFIG_MODULE_SIG_KEY="certs/signing_key.pem"
+CONFIG_SYSTEM_TRUSTED_KEYS="certs/signing_key.pem"
+CONFIG_SYSTEM_REVOCATION_KEYS=" "
+```
