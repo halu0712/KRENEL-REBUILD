@@ -12,6 +12,6 @@
 
 - 為避免上述的問題,會需要用到uname –mrs進行確認
 
-![uname-mrs](image/uname-mrs.png) 
+     ![uname-mrs](image/uname-mrs.png) 
 
 
