@@ -66,7 +66,7 @@ sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-de
 
 ### 安裝額外DLC
 
-這部分是在REBUILD中會遭遇的BUG,為防止過度使用記憶體,所以建議先裝好,若是使用18.04或16.04可跳過
+這部分是在REBUILD中會遭遇的BUG,為防止過度使用記憶體,所以建議先裝好,目前我看網路上只有20.04有這問題,所以若是使用18.04或16.04可跳過
 #### zstd
 
 會遇到的問題如下
