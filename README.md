@@ -209,7 +209,7 @@ make menuconfig
 
 ## 參考資料
 
-- https://phoenixnap.com/kb/build-linux-kernel
-- https://discourse.ubuntu.com/t/how-to-compile-kernel-in-ubuntu-20-04/20268
-- https://stackoverflow.com/questions/61657707/btf-tmp-vmlinux-btf-pahole-pahole-is-not-available
-- https://rt-ispace.com/2021/12/25/solving-a-kernel-module-signing-issue/
+- [How to Build Linux Kernel From Scratch {Step-By-Step Guide}](https://phoenixnap.com/kb/build-linux-kernel)
+- [How to compile kernel in ubuntu 20.04](https://discourse.ubuntu.com/t/how-to-compile-kernel-in-ubuntu-20-04/20268)
+- [BTF: .tmp_vmlinux.btf: pahole (pahole) is not available](https://stackoverflow.com/questions/61657707/btf-tmp-vmlinux-btf-pahole-pahole-is-not-available)
+- [Solving a kernel module signing issue](https://rt-ispace.com/2021/12/25/solving-a-kernel-module-signing-issue/)
