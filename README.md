@@ -18,5 +18,5 @@
 - 由於基礎視窗過小,所以如果是有需要進行Mesunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
 #### 步驟一
 - 在介面上方找到"裝置",點擊他並找到"插入GAC映像"
-     ![install-GAC](install-GAC.png)
+     ![install-GAC](image/install-GAC.png)
 
