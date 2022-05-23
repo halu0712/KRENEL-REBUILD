@@ -125,10 +125,35 @@ CONFIG_SYSTEM_TRUSTED_KEYS="debian/canonical-certs.pem"
 CONFIG_SYSTEM_REVOCATION_KEYS="debian/canonical-revoked-certs.pem"
 ```
 經測試,revocation為非必要憑證,所以僅需要將它那一行改成" "即可
-至於trusted_key,sig_key則可使用同一個憑證,所以修改結果為
+至於trusted_keys,sig_key則可使用同一個憑證,所以修改結果為
 
 ```properties
 CONFIG_MODULE_SIG_KEY="certs/signing_key.pem"
 CONFIG_SYSTEM_TRUSTED_KEYS="certs/signing_key.pem"
 CONFIG_SYSTEM_REVOCATION_KEYS=" "
 ```
+至於為何trusted_keys和sig_key不可以像revocation_keys一樣空白
+是因為後面會有一文件叫anti.ko,他若沒有上兩位的授權證明,會無法安裝在ubuntu上
+
+### 創造憑證
+上一點說到憑證,但目前certs資料夾內是沒有signing_key.pem這個授權文件的,所以需要自己創造,具體指令如下
+```shell
+sudo tee x509.genkey > /dev/null << 'EOF'
+[ req ]
+default_bits = 4096
+distinguished_name = req_distinguished_name
+prompt = no
+string_mask = utf8only
+x509_extensions = myexts
+[ req_distinguished_name ]
+CN = Modules
+[ myexts ]
+basicConstraints=critical,CA:FALSE
+keyUsage=digitalSignature
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid
+EOF
+
+sudo openssl req -new -nodes -utf8 -sha512 -days 36500 -batch -x509 -config x509.genkey -outform DER -out signing_key.x509 -keyout signing_key.pem
+```
+由於是sudo創建的,之後的make就必須加上sudo了
