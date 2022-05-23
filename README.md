@@ -85,7 +85,7 @@ sudo apt install dwarves
 - 網站下載
 
 前往 www.kernel.org 並點選最新發布的kernel
-
+![DD](image/DD.png)
 下載完後檔案會存在"下載"中
 - 終端下載
 
