@@ -82,3 +82,4 @@ sudo apt install dwarves
 ### 下載kernel
 分為兩種方法
 - 網站下載
+前往 www.kernel.org 並點選最新發布的kernel
