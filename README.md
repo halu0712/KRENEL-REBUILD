@@ -3,7 +3,7 @@
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
     - [設定記憶體大小](#設定記憶體大小)
     - [確認目前內核版](#確認目前內核版)
-    - [安裝GUESS ADDITIONS CD 映像](#安裝GUESS ADDITIONS CD 映像)
+    - [安裝GUESS-ADDITIONS-CD-映像](#安裝GUESS-ADDITIONS-CD-映像)
        - [步驟一](#步驟一)
 
 
