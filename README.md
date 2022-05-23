@@ -12,7 +12,7 @@
 
 - 為避免上述的問題,會需要用到uname –mrs進行確認
 
-        ![uname-mrs](image/uname-mrs.png) 
+     ![uname-mrs](image/uname-mrs.png) 
 
 ### 安裝GUESS ADDITIONS CD 映像(以下簡稱GAC)
 - 由於基礎視窗過小,所以如果是有需要進行Mesunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
