@@ -63,3 +63,16 @@ sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-de
 ```shell
 @@@
 ```
+- dewarves
+會遇到的問題如下
+```shell
+BTF: .tmp_vmlinux.btf: pahole (pahole) is not available
+Failed to generate BTF for vmlinux
+Try to disable CONFIG_DEBUG_INFO_BTF
+make: *** [Makefile:1106: vmlinux] Error 1
+```
+
+須執行以下指令
+```shell
+sudo apt install dwarves
+```
