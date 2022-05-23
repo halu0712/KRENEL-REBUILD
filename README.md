@@ -1,5 +1,5 @@
 # KRENEL-REBUILD
-伺服器建設
+
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
     - [設定記憶體大小](#設定記憶體大小)
     - [確認目前內核版](#確認目前內核版)
@@ -48,7 +48,7 @@ sudo apt-get install dkms
 上述動作結束後重開機,並在上方欄位"檢視"中找到選項"自動調整客體顯示大小",即可調節視窗大小
 
 ### 安裝gcc等編譯器
-安裝gcc等編譯器始能使用make相關的指令
+安裝gcc等編譯器使能使用make相關的指令
 
 ```shell
 sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-dev libelf-dev
@@ -78,3 +78,7 @@ make: *** [Makefile:1106: vmlinux] Error 1
 ```shell
 sudo apt install dwarves
 ```
+## 開始安裝
+### 下載kernel
+分為兩種方法
+- 網站下載
