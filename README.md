@@ -16,7 +16,7 @@
     - [修改config文件](#修改config文件)
     - [安裝](#安裝)
     - [安裝(可選)](#安裝(可選))
-
+# [參考資料](#參考資料)
 ## KERNEL-REBUILD 前置作業
 ### 設定記憶體大小
 - 由於REBUILD的檔案相當大,經反覆測試後50GB為最佳的記憶體大小
@@ -206,3 +206,10 @@ make menuconfig
 接下來就選自己想改造的部分了
 我涉略不深所以我是直接make拉
 感謝各位觀看
+
+##參考資料
+
+https://phoenixnap.com/kb/build-linux-kernel
+https://discourse.ubuntu.com/t/how-to-compile-kernel-in-ubuntu-20-04/20268
+https://stackoverflow.com/questions/61657707/btf-tmp-vmlinux-btf-pahole-pahole-is-not-available
+https://rt-ispace.com/2021/12/25/solving-a-kernel-module-signing-issue/
