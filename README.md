@@ -1,6 +1,7 @@
 # KRENEL-REBUILD
 伺服器建設
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
+ - [設定記憶體大小](#設定記憶體大小)
 
 
 ## KERNEL-REBUILD 前置作業
@@ -40,4 +41,4 @@ sudo apt-get apgrade
 ```shell
 sudo apt-get install dkms
 ```
-上述動作結束後重開機,並在上方欄位"檢視"中找到選項"自動調整客體顯示大小",即可自由的調節視窗大小
+上述動作結束後重開機,並在上方欄位"檢視"中找到選項"自動調整客體顯示大小",即可調節視窗大小
