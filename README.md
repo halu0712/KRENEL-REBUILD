@@ -58,13 +58,13 @@ sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-de
 ### 安裝額外DLC
 
 這部分是在REBUILD中會遭遇的BUG,為防止過度使用記憶體,所以建議先裝好,若是使用18.04或16.04可跳過
-- zstd
+####zstd
 
 會遇到的問題如下
 ```shell
 @@@
 ```
-- dewarves
+####dewarves
 
 會遇到的問題如下
 ```shell
