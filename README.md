@@ -12,8 +12,8 @@
         - [dwarves](#dwarves)
 * [開始安裝](#開始安裝)
     - [下載kernel](#下載kernel)
-    - [複製-.config文件](#複製-.config文件)
-    - [修改.config文件](#修改.config文件)
+    - [複製config文件](#複製config文件)
+    - [修改config文件](#修改config文件)
     - [安裝](#安裝)
     - [安裝(可選)](#安裝(可選))
 
@@ -105,7 +105,7 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
 
 下載完後檔案會存在"桌面"中
 
-### 複製 .config文件
+### 複製config文件
 在開始製作內核之前,我們需要先複製.config文件來提供對各種硬件的支持。
 
 方法有三種
@@ -125,7 +125,7 @@ make localmodconfig
 第三種就是直接跑到電腦內部直接複製.config文件,需要注意的是20.04是雙核心,所以要確定哪個才是需要複製的
 ![AA](image/AA.png)
 
-### 修改.config文件
+### 修改config文件
 20.04中config_system_[trusted_keys,sig_key,revocation_key]這三樣的憑證開啟於debain資料夾中,但實際上debain資料夾是在make途中才創建,所以在跑make的時候一定會出錯
 所以需要修改新的位子使其能夠正常運作
 ```properties
