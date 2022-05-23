@@ -5,6 +5,7 @@
     - [確認目前內核版](#確認目前內核版)
     - [安裝GUESS-ADDITIONS-CD-映像](#安裝GUESS-ADDITIONS-CD-映像)
        - [步驟一](#步驟一)
+       - [步驟二](#步驟二)
 
 
 ## KERNEL-REBUILD 前置作業
