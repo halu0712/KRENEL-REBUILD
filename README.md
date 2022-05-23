@@ -1,7 +1,7 @@
 # KRENEL-REBUILD
 伺服器建設
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
- - [設定記憶體大小](#設定記憶體大小)
+    - [設定記憶體大小](#設定記憶體大小)
 
 
 ## KERNEL-REBUILD 前置作業
