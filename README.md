@@ -20,4 +20,4 @@
 - 在介面上方找到"裝置",點擊他並找到"插入GAC映像"
     
 ![install-GAC](image/install-GAC.png)
-
+-系統會自行跳出終端並安裝,結束後按ENTER即跳出視窗
