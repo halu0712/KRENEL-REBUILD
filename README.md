@@ -71,7 +71,16 @@ sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-de
 
 會遇到的問題如下
 ```shell
-@@@
+/bin/sh: 1: zstd: not found
+make[2]: * [arch/x86/boot/compressed/Makefile:139：arch/x86/boot/compressed/vmlinux.bin.zst] 錯誤 127
+make[2]: * 正在刪除檔案「arch/x86/boot/compressed/vmlinux.bin.zst」
+make[1]: * [arch/x86/boot/Makefile:115：arch/x86/boot/compressed/vmlinux] 錯誤 2
+make: * [arch/x86/Makefile:269：bzImage] 錯誤 2
+```
+
+須執行以下指令
+```shell
+sudo apt install zstd
 ```
 #### dwarves
 
