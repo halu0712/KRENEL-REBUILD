@@ -99,7 +99,9 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
 ### 複製 .config文件
 在開始製作內核之前,我們需要先複製.config文件來提供對各種硬件的支持。
 
-方法有兩種,第一種是
+方法有三種
+
+第一種是
 ```shell
 cp /boot/config-$(uname -r) ./. config
 ```
@@ -109,4 +111,5 @@ cp /boot/config-$(uname -r) ./. config
 ```shell
 make localmodconfig
 ```
-輸入後會跑出一系列問題,按ENTER鍵到底即可,若是第一種方法則是會在MAKE階段才詢問
+輸入後會跑出一系列問題,按ENTER鍵到底即可,若是第一,三種方法則是會在MAKE階段才詢問
+
