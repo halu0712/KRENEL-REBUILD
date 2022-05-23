@@ -81,11 +81,14 @@ sudo apt install dwarves
 ## 開始安裝
 ### 下載kernel
 分為兩種方法
+
 - 網站下載
+
 前往 www.kernel.org 並點選最新發布的kernel
 
 下載完後檔案會存在"下載"中
 - 終端下載
+
 在終端輸入以下指令
 ```shell
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
