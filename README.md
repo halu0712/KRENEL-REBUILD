@@ -6,7 +6,16 @@
     - [安裝GUESS-ADDITIONS-CD-映像](#安裝GUESS-ADDITIONS-CD-映像)
        - [步驟一](#步驟一)
        - [步驟二](#步驟二)
-
+    - [安裝gcc等編譯器](#安裝gcc等編譯器)
+    - [安裝額外DLC](# 安裝額外DLC)
+        - [zstd](#zstd)
+        - [dwarves](#dwarves)
+* [開始安裝](#開始安裝)
+    - [下載kernel](#下載kernel)
+    - [複製 .config文件](#複製 .config文件)
+    - [修改.config文件](#修改.config文件)
+    - [安裝](#安裝)
+    - [安裝(可選)](#安裝(可選))
 
 ## KERNEL-REBUILD 前置作業
 ### 設定記憶體大小
@@ -64,7 +73,7 @@ sudo apt-get install build-essential gcc bc bison flex libssl-dev libncurses5-de
 ```shell
 @@@
 ```
-#### dewarves
+#### dwarves
 
 會遇到的問題如下
 ```shell
