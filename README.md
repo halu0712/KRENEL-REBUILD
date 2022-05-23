@@ -29,6 +29,11 @@
 #### 步驟二
 
 ```shell
-sudo chmod a-w /var/ftp/
+sudo apt-get apdate
 ```
-
+```shell
+sudo apt-get apgrade
+```
+```shell
+sudo apt-get install dkms
+```
