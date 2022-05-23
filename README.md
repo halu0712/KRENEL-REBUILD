@@ -207,7 +207,7 @@ make menuconfig
 我涉略不深所以我是直接make拉
 感謝各位觀看
 
-##參考資料
+## 參考資料
 
 https://phoenixnap.com/kb/build-linux-kernel
 https://discourse.ubuntu.com/t/how-to-compile-kernel-in-ubuntu-20-04/20268
