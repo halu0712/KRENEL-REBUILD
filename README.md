@@ -157,3 +157,20 @@ EOF
 sudo openssl req -new -nodes -utf8 -sha512 -days 36500 -batch -x509 -config x509.genkey -outform DER -out signing_key.x509 -keyout signing_key.pem
 ```
 由於是sudo創建的,之後的make就必須加上sudo了
+
+### 安裝
+請依序打入下列指令
+```shell
+sudo make
+```
+這個流程沒意外會花費5小時左右
+
+```shell
+sudo make modules_install
+```
+```shell
+sudo make install 
+```
+這兩個流程很快,莫約3分鐘左右
+結束後請重開機,再輸入uname -mrs即可看到內核改變
+![BB](image/BB.png)
