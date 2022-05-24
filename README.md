@@ -138,6 +138,7 @@ make localmodconfig
 20.04中config_system_[trusted_keys,sig_key,revocation_key]這三樣的憑證開啟於debain資料夾中,但實際上debain資料夾是在make途中才創建,所以在跑make的時候一定會出錯
 所以需要修改新的位子使其能夠正常運作
 ```properties
+#目前5.13.0-41已修正sig_key為certs/signing_key.pem
 CONFIG_MODULE_SIG_KEY="debian/canonical-certs.pem"
 CONFIG_SYSTEM_TRUSTED_KEYS="debian/canonical-certs.pem"
 CONFIG_SYSTEM_REVOCATION_KEYS="debian/canonical-revoked-certs.pem"
