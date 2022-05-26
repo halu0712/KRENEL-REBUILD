@@ -45,11 +45,11 @@
 結束之後打開終端,並執行以下指令
 
 ```shell
-sudo apt-get apdate
+sudo apt-get update
 ```
 
 ```shell
-sudo apt-get apgrade
+sudo apt-get upgrade
 ```
 
 ```shell
@@ -122,7 +122,7 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
 
 第一種是
 ```shell
-cp /boot/config-$(uname -r) ./. config
+cp /boot/config-$(uname -r) ./ .config
 ```
 但上述這個方法有時候系統會產生未知的錯誤,使其無法正常運作
 
