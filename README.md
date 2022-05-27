@@ -114,7 +114,7 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
 ```
 
 下載完後檔案會存在"桌面"中
-
+解壓縮完後進入資料夾
 ### 複製config文件
 在開始製作內核之前,我們需要先複製.config文件來提供對各種硬件的支持。
 
