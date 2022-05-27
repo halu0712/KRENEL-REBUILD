@@ -124,7 +124,6 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-需要的版本.tar.xz
 ```shell
 cp /boot/config-$(uname -r) .config
 ```
-但上述這個方法有時候系統會產生未知的錯誤,使其無法正常運作
 
 第二種為
 ```shell
