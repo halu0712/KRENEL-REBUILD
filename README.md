@@ -3,7 +3,7 @@
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
     - [設定記憶體大小](#設定記憶體大小)
     - [確認目前內核版本](#確認目前內核版本)
-    - [安裝GUESS-ADDITIONS-CD-映像(非必須)](#安裝GUESS-ADDITIONS-CD-映像(非必須))
+    - [安裝GUESS-ADDITIONS-CD-映像(非必須)](#安裝GUESS-ADDITIONS-CD-映像#非必須)
        - [步驟一](#步驟一)
        - [步驟二](#步驟二)
     - [安裝gcc等編譯器](#安裝gcc等編譯器)
@@ -29,7 +29,7 @@
 
      ![uname-mrs](image/uname-mrs.png) 
 
-### 安裝GUESS ADDITIONS CD 映像(非必須)
+### 安裝GUESS ADDITIONS CD 映像#非必須
 由於基礎視窗過小,所以如果是有需要進行Meunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
 
 #### 步驟一
