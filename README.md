@@ -30,7 +30,7 @@
      ![uname-mrs](image/uname-mrs.png) 
 
 ### 安裝GUESS ADDITIONS CD 映像
-由於基礎視窗過小,所以如果是有需要進行Mesunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
+由於基礎視窗過小,所以如果是有需要進行Meunconfig的需求的話會無法執行,故需要利用GAC來使視窗大小改變
 
 #### 步驟一
 在介面上方找到"裝置",點擊他並找到"插入GAC映像"
@@ -157,6 +157,7 @@ CONFIG_SYSTEM_REVOCATION_KEYS=" "
 ### 創造憑證
 上一點說到憑證,但目前certs資料夾內是沒有signing_key.pem這個授權文件的,所以需要自己創造,具體指令如下
 ```shell
+#該錯誤於5.13.0-42以修正
 sudo tee x509.genkey > /dev/null << 'EOF'
 [ req ]
 default_bits = 4096
