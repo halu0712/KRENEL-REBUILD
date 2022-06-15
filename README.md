@@ -1,4 +1,4 @@
-# KRENEL-REBUILD
+# KERNEL-REBUILD
 組員:b1042001李治諒
     b1042050林冠霆
 * [KERNEL-REBUILD 前置作業](#kernel-rebuild-前置作業)
